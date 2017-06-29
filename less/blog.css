@@ -1,0 +1,69 @@
+@media screen and (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 767px) {
+}
+.post {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  font-size: 13px;
+  background-color: #fafafa;
+  font-weight: bold!important;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 0;
+}
+.post small,
+.post .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #fafafa;
+}
+.post small,
+.post .small {
+  font-size: 75%;
+}
+.post p,
+.post a,
+.post h1,
+.post h2,
+.post h3,
+.post h4,
+.post h5,
+.post h6 {
+  font-weight: bold!important;
+}
+.post:nth-child(odd) {
+  margin-bottom: 0;
+}
+.post:nth-child(even) {
+  background: none;
+  padding-bottom: 0;
+}
+.post h6 {
+  color: #3e5ebd;
+}
+.post .post-meta {
+  margin-top: 2em;
+}
+.post .post-meta > div:first-child {
+  margin-left: 0;
+}
+.blog {
+  line-height: 1.5;
+}

@@ -1,0 +1,206 @@
+/*
+Theme Name: Fertility by Design
+Author: Goldfarb Development
+Author URI: http://goldfarbdev.com
+*/
+@import "bootstrap.less";
+@import "ftd.css";
+@import "font-size";
+@import "sliders";
+@import "blog";
+@import "footer";
+@import "helpers";
+@import "sidebar";
+@import "page";
+
+.icon-xlarge{
+	font-size: 100px;
+}
+.form-control{
+	height:40px;
+	padding:6px 12px 16px;
+	.font-size(21);
+}
+//.panel, .panel-heading{
+//	border:none;
+//}
+body{
+	border-top: 20px solid #7a84bc;
+	padding-bottom:140px;
+	position: relative;
+	min-height: 100%;
+	.jumbotron{
+		&.bg-primary{
+			background:@brand-primary;
+			color:#FFF;
+		}
+		form.form-inline{
+			label{
+				text-transform: uppercase;
+				.font-size(24px);
+				font-weight:normal;
+				vertical-align: bottom;
+				margin-bottom:0;
+			}
+			input{
+				.font-size(24px);
+				height: 47px;
+				padding-bottom: 0px;
+				padding-top: 0.5em;
+				vertical-align: text-bottom;
+				margin:0 1em;
+			}
+		}
+	}
+}
+
+h1, h2{
+	text-transform: uppercase;
+	margin-bottom:1em;
+}
+
+.headings-primary{
+	h1,h2,h3,h4,h5, h6{
+		color:@brand-primary;
+	}
+}
+h2{
+	font-family: @font-family-serif;
+}
+a{
+	font-weight: bold;
+}
+
+
+
+.btn{
+	text-transform: uppercase;
+	font-family: @font-family-serif;
+	font-weight: bold;
+}
+
+header{
+	padding: 20px 0 40px;
+
+	#logo-right{
+		padding-top:60px;
+	}
+	#google_translate_element{
+		text-align:right;
+	}
+}
+
+
+.page{
+	margin-top:@line-height-computed;
+}
+#navbar{
+	padding-left: 0;
+	a{
+		font-weight: normal;
+	}
+}
+.dropdown-submenu {
+	position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: -6px;
+	margin-left: -1px;
+	-webkit-border-radius: 0 6px 6px 6px;
+	-moz-border-radius: 0 6px 6px;
+	border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+	display: block;
+}
+
+.dropdown-submenu>a:after {
+	display: block;
+	content: " ";
+	float: right;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 5px 0 5px 5px;
+	border-left-color: #ccc;
+	margin-top: 5px;
+	margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+	border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+	float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+	left: -100%;
+	margin-left: 10px;
+	-webkit-border-radius: 6px 0 6px 6px;
+	-moz-border-radius: 6px 0 6px 6px;
+	border-radius: 6px 0 6px 6px;
+}
+//@media (min-width: 979px) {
+//	ul.nav li.dropdown:hover > ul.dropdown-menu {
+//		display: block;
+//		margin-top:0px;
+//	}
+//}
+
+.btn{
+	-webkit-transition: background-color 300ms ease;
+	-ms-transition: background-color 300ms ease;
+	transition: background-color 300ms ease;
+	padding: .75em 1.5em;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+.btn-secondary{
+	.btn-primary();
+	background-color:@brand-primary;
+	border-color:@brand-primary;
+}
+
+.panel{
+	box-shadow: none;
+}
+
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+	position: relative;
+	padding-right: (@grid-gutter-width / 2);
+	padding-left: (@grid-gutter-width / 2);
+}
+
+.col-xs-15 {
+	width: 20%;
+	float: left;
+}
+@media (min-width: @screen-sm) {
+	.col-sm-15 {
+		width: 20%;
+		float: left;
+	}
+}
+@media (min-width: @screen-md) {
+	.col-md-15 {
+		width: 20%;
+		float: left;
+	}
+}
+@media (min-width: @screen-lg) {
+	.col-lg-15 {
+		width: 20%;
+		float: left;
+	}
+}

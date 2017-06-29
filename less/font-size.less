@@ -1,0 +1,7 @@
+/* FONT-SIZE
+========================================================================== */
+.font-size(@font-size: @line-height-computed) {
+	@rem: (@font-size / @line-height-computed);
+	font-size: @font-size * 1px;
+	font-size: ~"@{rem}rem";
+}

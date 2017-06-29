@@ -1,0 +1,38 @@
+@media screen and (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 767px) {
+}
+footer {
+  background: #3e5ebd;
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+footer a {
+  color: white;
+  font-weight: normal;
+}
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+footer .container {
+  padding: 1em 2em;
+}
+footer nav span {
+  display: inline-block;
+  padding: 0 1em;
+}

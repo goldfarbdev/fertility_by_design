@@ -1,0 +1,491 @@
+@import (reference) "style";
+
+@pink: #fff6f8;
+
+.brand-primary{
+	color:@brand-primary;
+}
+.color-red{
+	color:@red;
+}
+.islet{
+	padding: 2em;
+}
+.islet-right{
+	padding: 2em;
+	@media screen and (min-width:@screen-md-min){
+		padding:2em 2em 0 0;
+	}
+}
+.island{
+	padding: 3em;
+}
+
+.bg-primary{
+	background:@brand-primary;
+	color:#FFF;
+}
+.bg-pink{
+	background-color:@pink;
+	color:@gray;
+	h1,h2{
+		color:@red;
+	}
+}
+
+.bg-gray{
+	background-color:@gray-light;
+}
+/*
+	Add this class to enable you to insert a background image that looks flush to the left edge
+*/
+.bg-img{
+	img{/*Insert the same image in the container to take care of height and width ratio*/
+		visibility:hidden;
+		width:100%;
+	}
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: white;
+	@media screen and (min-width:@screen-md-min) {
+		background-position-x: 15px;
+	}
+}
+
+.container{
+	heading{
+		padding-left: 0;
+	}
+}
+.island{
+	padding: 3em;
+}
+
+.height-match{
+	margin-bottom:1em;
+}
+
+.smaller-text{
+	font-size: @font-size-small;
+	h2{
+		font-size: @font-size-base;
+		font-weight: bold;
+	}
+}
+
+.flush-left{
+
+}
+.flush-right{
+
+}
+.flush-top{
+
+}
+.flush-bottom{
+
+}
+@media screen and (min-width: 640px){
+	.float-bottom{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		left: 0;
+	}
+}
+.h-border-none{
+	border:none;
+}
+.h-list-style-none{
+	list-style: none;
+	padding-left: 1em;
+}
+.h-color-body{
+	color: @text-color!important;
+}
+.h-textBold {
+	font-weight: bold
+}
+
+.h-lineHeight {
+	line-height: 1.0
+}
+
+.h-lineHeight1 {
+	line-height: 1.1
+}
+
+.h-lineHeight2 {
+	line-height: 1.2
+}
+
+.h-lineHeight3 {
+	line-height: 1.3
+}
+
+.h-lineHeight4 {
+	line-height: 1.4
+}
+
+.h-lineHeight5 {
+	line-height: 1.5
+}
+
+.h-lineHeight6 {
+	line-height: 1.6
+}
+
+.h-lineHeight7 {
+	line-height: 1.7
+}
+
+.h-lineHeight8 {
+	line-height: 1.8
+}
+
+.h-lineHeight9 {
+	line-height: 1.9
+}
+
+.h-clearBoth {
+	clear: both !important
+}
+
+.h-clearLeft {
+	clear: left !important
+}
+
+.h-clearRight {
+	clear: right !important
+}
+
+.h-clearNone {
+	clear: none !important
+}
+
+.h-floatRight {
+	float: right !important
+}
+
+.h-floatLeft {
+	float: left !important
+}
+
+.h-floatNone {
+	float: none !important
+}
+
+.h-textLeft {
+	text-align: left !important
+}
+
+.h-textCenter {
+	text-align: center !important
+}
+
+.h-textRight {
+	text-align: right !important
+}
+
+.h-verticalTop {
+	vertical-align: top !important
+}
+
+.h-verticalCenter {
+	vertical-align: middle !important
+}
+
+.h-verticalBottom {
+	vertical-align: bottom !important
+}
+
+.h-push {
+	margin: 25px !important
+}
+
+.h-pushTop {
+	margin-top: 25px !important
+}
+
+.h-pushRight {
+	margin-right: 25px !important
+}
+
+.h-pushBottom {
+	margin-bottom: 25px !important
+}
+
+.h-pushLeft {
+	margin-left: 25px !important
+}
+
+.h-pushEnds {
+	margin-top: 25px !important;
+	margin-bottom: 25px !important
+}
+
+.h-pushSides {
+	margin-right: 25px !important;
+	margin-left: 25px !important
+}
+
+.h-pushSm {
+	margin: 13px !important
+}
+
+.h-pushSmTop {
+	margin-top: 13px !important
+}
+
+.h-pushSmRight {
+	margin-right: 13px !important
+}
+
+.h-pushSmBottom {
+	margin-bottom: 13px !important
+}
+
+.h-pushSmLeft {
+	margin-left: 13px !important
+}
+
+.h-pushSmEnds {
+	margin-top: 13px !important;
+	margin-bottom: 13px !important
+}
+
+.h-pushSmSides {
+	margin-right: 13px !important;
+	margin-left: 13px !important
+}
+
+.h-pushLg {
+	margin: 52px !important
+}
+
+.h-pushLgTop {
+	margin-top: 52px !important
+}
+
+.h-pushLgRight {
+	margin-right: 52px !important
+}
+
+.h-pushLgBottom {
+	margin-bottom: 52px !important
+}
+
+.h-pushLgLeft {
+	margin-left: 52px !important
+}
+
+.h-pushLgEnds {
+	margin-top: 52px !important;
+	margin-bottom: 52px !important
+}
+
+.h-pushLgSides {
+	margin-right: 52px !important;
+	margin-left: 52px !important
+}
+
+.h-flush {
+	margin: 0 !important
+}
+
+.h-flushTop {
+	margin-top: 0 !important
+}
+
+.h-flushRight {
+	margin-right: 0 !important
+}
+
+.h-flushBottom {
+	margin-bottom: 0 !important
+}
+
+.h-flushLeft {
+	margin-left: 0 !important
+}
+
+.h-flushEnds {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important
+}
+
+.h-flushSides {
+	margin-right: 0 !important;
+	margin-left: 0 !important
+}
+
+.h-soft {
+	padding: 26px !important
+}
+
+.h-softTop {
+	padding-top: 26px !important
+}
+
+.h-softRight {
+	padding-right: 26px !important
+}
+
+.h-softBottom {
+	padding-bottom: 26px !important
+}
+
+.h-softLeft {
+	padding-left: 26px !important
+}
+
+.h-softEnds {
+	padding-top: 26px !important;
+	padding-bottom: 26px !important
+}
+
+.h-softSides {
+	padding-right: 26px !important;
+	padding-left: 26px !important
+}
+
+.h-softXSm {
+	padding: 6.5px !important
+}
+
+.h-softXSmTop {
+	padding-top: 6.5px !important
+}
+
+.h-softXSmRight {
+	padding-right: 6.5px !important
+}
+
+.h-softXSmBottom {
+	padding-bottom: 6.5px !important
+}
+
+.h-softXSmLeft {
+	padding-left: 6.5px !important
+}
+
+.h-softXSmEnds {
+	padding-top: 6.5px !important;
+	padding-bottom: 6.5px !important
+}
+
+.h-softXSmSides {
+	padding-right: 6.5px !important;
+	padding-left: 6.5px !important
+}
+
+.h-softSm {
+	padding: 13px !important
+}
+
+.h-softSmTop {
+	padding-top: 13px !important
+}
+
+.h-softSmRight {
+	padding-right: 13px !important
+}
+
+.h-softSmBottom {
+	padding-bottom: 13px !important
+}
+
+.h-softSmLeft {
+	padding-left: 13px !important
+}
+
+.h-softSmEnds {
+	padding-top: 13px !important;
+	padding-bottom: 13px !important
+}
+
+.h-softSmSides {
+	padding-right: 13px !important;
+	padding-left: 13px !important
+}
+
+.h-softLg {
+	padding: 52px !important
+}
+
+.h-softLgTop {
+	padding-top: 52px !important
+}
+
+.h-softLgRight {
+	padding-right: 52px !important
+}
+
+.h-softLgBottom {
+	padding-bottom: 52px !important
+}
+
+.h-softLgLeft {
+	padding-left: 52px !important
+}
+
+.h-softLgEnds {
+	padding-top: 52px !important;
+	padding-bottom: 52px !important
+}
+
+.h-softLgSides {
+	padding-right: 52px !important;
+	padding-left: 52px !important
+}
+
+.h-hard {
+	padding: 0 !important
+}
+
+.h-hardTop {
+	padding-top: 0 !important
+}
+
+.h-hardRight {
+	padding-right: 0 !important
+}
+
+.h-hardBottom {
+	padding-bottom: 0 !important
+}
+
+.h-hardLeft {
+	padding-left: 0 !important
+}
+
+.h-hardEnds {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important
+}
+
+.h-hardSides {
+	padding-right: 0 !important;
+	padding-left: 0 !important
+}
+
+.h-muted {
+	opacity: 0.5 !important;
+	filter: alpha(opacity=50) !important
+}
+
+.h-disabled {
+	pointer-events: none;
+	opacity: 0.5 !important;
+	filter: alpha(opacity=50) !important
+}
+
+.h-max-lg{
+	max-width: @modal-lg;
+}
+.h-max-md{
+	max-width: @modal-md;
+}
+.h-max-sm{
+	max-width: @modal-sm;
+}

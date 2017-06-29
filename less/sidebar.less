@@ -1,0 +1,15 @@
+@import (reference) "style";
+.sidebar{
+	.islet{
+		padding: 1.25em;
+	}
+
+	h4,h5,h6{
+		font-weight:bold;
+	}
+	&.sidebar-right{
+		@media screen and (min-width: @screen-sm-min){
+			float:right!important;
+		}
+	}
+}
