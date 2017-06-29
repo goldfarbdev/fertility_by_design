@@ -3126,7 +3126,7 @@ output {
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
-  border-radius: 0;
+  border-radius: 0 !important;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
@@ -4468,7 +4468,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   text-align: center;
   background-color: #ffffff;
   border: 1px solid #ccc;
-  border-radius: 0;
+  border-radius: 0 !important;
 }
 .input-group-addon.input-sm {
   padding: 5px 10px;
@@ -7863,7 +7863,7 @@ footer nav span {
 }
 .form-control {
   height: 40px;
-  padding: 6px 12px 16px;
+  padding: 16px 12px 16px;
   font-size: 21px;
   font-size: 0.9545454545454546pxrem;
 }
@@ -8047,33 +8047,36 @@ fieldset[disabled] .btn-secondary.focus {
 .panel {
   box-shadow: none;
 }
-.col-xs-15,
-.col-sm-15,
-.col-md-15,
-.col-lg-15 {
+#guide-to-fertility .col-xs-15,
+#guide-to-fertility .col-sm-15,
+#guide-to-fertility .col-md-15,
+#guide-to-fertility .col-lg-15 {
   position: relative;
   padding-right: 15px;
   padding-left: 15px;
 }
-.col-xs-15 {
+#guide-to-fertility .col-xs-15 {
   width: 20%;
   float: left;
 }
 @media (min-width: 768px) {
-  .col-sm-15 {
+  #guide-to-fertility .col-sm-15 {
     width: 20%;
     float: left;
   }
 }
 @media (min-width: 1140px) {
-  .col-md-15 {
+  #guide-to-fertility .col-md-15 {
     width: 20%;
     float: left;
   }
 }
 @media (min-width: 1363px) {
-  .col-lg-15 {
+  #guide-to-fertility .col-lg-15 {
     width: 20%;
     float: left;
   }
+}
+input {
+  border-radius: 0!important;
 }
