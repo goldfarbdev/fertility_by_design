@@ -1,4 +1,4 @@
-<footer> 
+<footer>
     <div class="container islet">
         <nav>
             <h6>
