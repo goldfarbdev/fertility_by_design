@@ -7492,6 +7492,34 @@ footer nav span {
 .bg-gray {
   background-color: #fafafa;
 }
+.bg-blue-secondary {
+  background-color: #7989ba;
+}
+.bg-blue-tertiary {
+  background-color: #6573a2;
+}
+.bg-blue-tertiary,
+.bg-blue-secondary {
+  color: white!important;
+}
+.bg-blue-tertiary h1,
+.bg-blue-secondary h1,
+.bg-blue-tertiary h2,
+.bg-blue-secondary h2,
+.bg-blue-tertiary h3,
+.bg-blue-secondary h3,
+.bg-blue-tertiary h4,
+.bg-blue-secondary h4,
+.bg-blue-tertiary h5,
+.bg-blue-secondary h5,
+.bg-blue-tertiary h6,
+.bg-blue-secondary h6,
+.bg-blue-tertiary p,
+.bg-blue-secondary p,
+.bg-blue-tertiary a,
+.bg-blue-secondary a {
+  color: white!important;
+}
 /*
 	Add this class to enable you to insert a background image that looks flush to the left edge
 */
@@ -7533,6 +7561,9 @@ footer nav span {
     width: 100%;
     left: 0;
   }
+}
+.h-border-radius-none {
+  border-radius: 0;
 }
 .h-border-none {
   border: none;
@@ -7863,7 +7894,7 @@ footer nav span {
 }
 .form-control {
   height: 40px;
-  padding: 16px 12px 16px;
+  padding: 6px 12px 16px;
   font-size: 21px;
   font-size: 0.9545454545454546pxrem;
 }
