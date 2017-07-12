@@ -32,7 +32,7 @@
         <a href="unexplained-infertility.php">Unexplained Infertility</a> -
         <a href="unexplained-infertility-esp.php">Unexplained Infertility (Spanish)</a> -
         <a href="provider-resources.php">Provider Resources</a> -
-        <a href="health-e-newsletter.php">Health E-Newsletter</a>
+        <a href="health-e-newsletter.php">Health E-Newsletter</a> - 
         <a href="first-steps.php">First Steps</a>
         <div id="google_translate_element"></div>
 
