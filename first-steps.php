@@ -15,12 +15,8 @@ require_once ('header.php');
         <div class="row">
             <div class="col-md-12">
                 <div class="panel bg-blue-secondary text-center h-border-radius-none">
-                    <div class="panel-heading">
-
-                    </div>
-
-
                     <div class="panel-body">
+                        <i class="icon-footprint icon-xlarge"></i>
                         <h2 class="h3 h-textBold">Financial Assistance</h2>
                         <p class="h-hardEnds">It is estimated that over 50% of patients who seek treatment<br> do not have any level of fertility medical or drug coverage.</p>
                         <br>
@@ -30,12 +26,8 @@ require_once ('header.php');
             </div>
             <div class="col-md-12">
                 <div class="panel bg-blue-tertiary text-center h-border-radius-none">
-                    <div class="panel-heading">
-
-                    </div>
-
-
                     <div class="panel-body">
+                        <i class="icon-cancer_ribbon icon-xlarge"></i>
                         <h2 class="h3 h-textBold">Oncofertility</h2>
                         <p class="h-hardEnds">Financial assistance is also available for individuals diagnosed<br> with cancer who also choose to seek fertility treatment.</p>
                         <br>
